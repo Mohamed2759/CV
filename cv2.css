@@ -26,6 +26,11 @@ body{
 .a img {
     border-radius: 100%;
     margin-top:30px;
+    -webkit-transition : -webkit-transform 1s ;
+}
+
+.a img:hover {
+    -webkit-transform : rotate(360deg) translateZ(0); 
 }
 
 .nom h1 {
@@ -67,6 +72,8 @@ ul {
         
         }
 
+       
+
         .nom h1{
             color:whitesmoke;
             text-align:center;
@@ -90,6 +97,7 @@ ul {
       margin: auto;
 
     }
+
 
     .id {
         width:100%;
